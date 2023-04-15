@@ -1,4 +1,4 @@
-package com.minimals.Cipher.baseCaseInterProc;
+package com.minimals.cipher.basecaseinterproc;
 import java.security.NoSuchAlgorithmException;
 
 import javax.crypto.Cipher;

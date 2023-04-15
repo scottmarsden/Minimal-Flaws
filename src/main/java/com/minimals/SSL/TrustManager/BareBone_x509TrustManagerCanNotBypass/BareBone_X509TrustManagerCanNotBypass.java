@@ -1,4 +1,4 @@
-package com.minimals.SSL.TrustManager.BareBone_x509TrustManagerCanNotBypass;
+package com.minimals.SSL.trustmanager.BareBone_x509TrustManagerCanNotBypass;
 public class BareBone_X509TrustManagerCanNotBypass {
 
     public static void main(String[] args) {

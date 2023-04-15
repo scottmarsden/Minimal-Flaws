@@ -1,4 +1,4 @@
-package com.minimals.SSL.HostNameVerifier.e_BadHostNameVerifierWithGenericCondition;
+package com.minimals.SSL.HostNameVerifier.e_BadHostnameVerifierWithGenericCondition;
 import javax.net.ssl.SSLSession;
 
 public class BadHostName{

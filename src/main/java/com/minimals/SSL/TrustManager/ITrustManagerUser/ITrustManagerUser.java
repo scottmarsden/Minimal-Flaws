@@ -1,4 +1,4 @@
-package com.minimals.SSL.TrustManager.ITrustManagerUser;
+package com.minimals.SSL.trustmanager.ITrustManagerUser;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 

@@ -1,4 +1,4 @@
-package com.minimals.Cipher.aesGCMNoPadding;
+package com.minimals.cipher.aesgcmnopadding;
 import java.security.NoSuchAlgorithmException;
 
 import javax.crypto.Cipher;

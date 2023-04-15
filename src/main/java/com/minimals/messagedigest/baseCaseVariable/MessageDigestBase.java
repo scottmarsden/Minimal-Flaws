@@ -1,4 +1,4 @@
-package com.minimals.messagedigest.baseCaseVariable;
+package com.minimals.messagedigest.basecasevariable;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 

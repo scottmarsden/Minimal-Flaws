@@ -1,3 +1,5 @@
+package com.minimals.IV.stash;
+
 public class Supplier {
     String val;
 

@@ -1,4 +1,4 @@
-package com.minimals.SSL.TrustManager.a_BareboneTrustManagerConditional;
+package com.minimals.SSL.trustmanager.a_BareboneTrustManagerConditional;
 
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;

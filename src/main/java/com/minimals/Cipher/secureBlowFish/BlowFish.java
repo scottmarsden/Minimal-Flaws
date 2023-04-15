@@ -1,4 +1,4 @@
-package com.minimals.Cipher.secureBlowFish;
+package com.minimals.cipher.secureBlowFish;
 
 import java.nio.charset.StandardCharsets;
 import java.security.Key;

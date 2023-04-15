@@ -1,4 +1,4 @@
-package com.minimals.SSL.TrustManager.BadSSL_Naive;
+package com.minimals.SSL.trustmanager.BadSSL_Naive;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URLConnection;

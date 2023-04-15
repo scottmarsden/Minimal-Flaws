@@ -1,4 +1,4 @@
-package com.minimals.Cipher.stringCaseTransform;
+package com.minimals.cipher.stringcasetransform;
 import java.security.NoSuchAlgorithmException;
 import java.util.Locale;
 

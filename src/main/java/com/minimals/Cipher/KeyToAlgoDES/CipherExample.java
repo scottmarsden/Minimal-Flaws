@@ -1,4 +1,4 @@
-package com.minimals.Cipher.KeyToAlgoDES;
+package com.minimals.cipher.keytoalgodes;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;

@@ -1,4 +1,4 @@
-package com.minimals.RandomNumber.StaticSeedSecureRandom.basecase_seedconstructor;
+package com.minimals.RandomNumber.staticseedsecurerandom.basecase_seedconstructor;
 import java.nio.charset.StandardCharsets;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;

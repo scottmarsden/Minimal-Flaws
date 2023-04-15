@@ -1,4 +1,4 @@
-package com.minimals.SSL.TrustManager.ITrustManagerUser;
+package com.minimals.SSL.trustmanager.ITrustManagerUser;
 import javax.net.ssl.X509TrustManager;
 
 public interface ITrustManager extends X509TrustManager {

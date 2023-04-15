@@ -1,4 +1,4 @@
-package com.minimals.messagedigest.interprocedureCase;
+package com.minimals.messagedigest.interprocedurecase;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 

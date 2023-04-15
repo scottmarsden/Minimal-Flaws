@@ -1,4 +1,4 @@
-package com.minimals.SSL.TrustManager.BareBoneTrustManagerDummyStatements;
+package com.minimals.SSL.trustmanager.BareboneTrustManagerDummyStatements;
 
 import java.security.KeyManagementException;
 

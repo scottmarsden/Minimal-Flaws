@@ -1,4 +1,4 @@
-package com.minimals.Cipher.aesStringReplace;
+package com.minimals.cipher.aesStringReplace;
 import java.security.NoSuchAlgorithmException;
 
 import javax.crypto.Cipher;

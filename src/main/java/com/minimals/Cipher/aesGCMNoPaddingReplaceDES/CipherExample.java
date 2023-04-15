@@ -1,4 +1,4 @@
-package com.minimals.Cipher.aesGCMNoPaddingReplaceDES;
+package com.minimals.cipher.aesGCMNoPaddingReplaceDES;
 import java.security.NoSuchAlgorithmException;
 
 import javax.crypto.Cipher;

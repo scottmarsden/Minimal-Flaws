@@ -1,4 +1,4 @@
-package com.minimals.SSL.TrustManager.b_BareboneTrustManagerConditional;
+package com.minimals.SSL.trustmanager.b_BareboneTrustManagerConditional;
 
 import java.security.KeyManagementException;
 

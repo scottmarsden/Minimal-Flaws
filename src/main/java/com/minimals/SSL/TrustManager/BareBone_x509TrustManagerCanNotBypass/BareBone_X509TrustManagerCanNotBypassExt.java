@@ -1,4 +1,4 @@
-package com.minimals.SSL.TrustManager.BareBone_x509TrustManagerCanNotBypass;
+package com.minimals.SSL.trustmanager.BareBone_x509TrustManagerCanNotBypass;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 

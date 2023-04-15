@@ -1,4 +1,4 @@
-package com.minimals.SSL.HostNameVerifier.f_BadHostNameVerifierWithCondition;
+package com.minimals.SSL.HostNameVerifier.f_BadHostnameVerifierWithCondition;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
 
