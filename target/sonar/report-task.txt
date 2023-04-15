@@ -1,0 +1,6 @@
+projectKey=minimalFlaws-new
+serverUrl=http://localhost:9000
+serverVersion=9.9.0.65466
+dashboardUrl=http://localhost:9000/dashboard?id=minimalFlaws-new
+ceTaskId=AYeGxZF4ggWe-tKIeHBq
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYeGxZF4ggWe-tKIeHBq
