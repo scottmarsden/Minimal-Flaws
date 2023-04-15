@@ -1,0 +1,65 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:da653f07-3f69-4224-aac2-490e0b16b76a",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-04-15T20:40:49Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.2",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "f4f0e5aa6c0d5f709b304511547647a6"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "13a77f9af6a286c9bfc8c00e5d75ff6e9920d4ce"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "d565f805cfd5e57af6a345e537e78b42ffd56fad094c74443e2a197a4e097538"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "92ff49fbb954b0341c38daddb30965fd9e8bb909e7e8a66dc65da5d6a958d021c6fe611c0b12314ae02f849de95101efe5b93470050dfb8090a459481ffa736a"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "e15a47303e035e6612c37f08ebc105674f84cafd779ab52398ce263e67ce93d9d5e4c7c2ddda2f73584b6071a9f1a9da"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "8c54133eb43f71bcdc52986159725cd32efef65047f8635a48d160a2d5f274f71c76e61cecbf3d47e3ca7929c3dbe736"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "7be4af15b7a685431c5252752c34b509c0d43a146db6844da9afbed2e4baa908"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "0025064deb5d9eb463a142bc4129c41f3387b18bd7aa54e5c923ed2c2f488616d198a65e952f7f2a1dea371387235f135c29643fb00f95366f7f6007d6327a31"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "group" : "com.minimals",
+      "name" : "des",
+      "version" : "1",
+      "licenses" : [ ],
+      "purl" : "pkg:maven/com.minimals/des@1?type=jar",
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.minimals/des@1?type=jar"
+    }
+  },
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.minimals/des@1?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

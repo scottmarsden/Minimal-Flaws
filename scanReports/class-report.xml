@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="0" timestamp="1681591209643" analysisTimestamp="1681591209652" release="">
+  <Project projectName="">
+    <Jar>/app</Jar>
+    <SrcDir>/app</SrcDir>
+  </Project>
+  <BugInstance type="STATIC_IV" priority="2" rank="12" abbrev="STAIV" category="SECURITY" instanceHash="2cf9d1761b16e520015570d6ff408af3" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="329">
+    <ShortMessage>Static IV</ShortMessage>
+    <LongMessage>The initialization vector (IV) is not properly generated</LongMessage>
+    <Class classname="com.minimals.IV.baseCase.StaticIV" primary="true">
+      <SourceLine classname="com.minimals.IV.baseCase.StaticIV" start="6" end="12" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/baseCase/StaticIV.java">
+        <Message>At StaticIV.java:[lines 6-12]</Message>
+      </SourceLine>
+      <Message>In class com.minimals.IV.baseCase.StaticIV</Message>
+    </Class>
+    <Method classname="com.minimals.IV.baseCase.StaticIV" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="com.minimals.IV.baseCase.StaticIV" start="8" end="12" startBytecode="0" endBytecode="124" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/baseCase/StaticIV.java"/>
+      <Message>In method com.minimals.IV.baseCase.StaticIV.main(String[])</Message>
+    </Method>
+    <SourceLine classname="com.minimals.IV.baseCase.StaticIV" primary="true" start="9" end="9" startBytecode="11" endBytecode="11" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/baseCase/StaticIV.java">
+      <Message>At StaticIV.java:[line 9]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="STATIC_IV" priority="2" rank="12" abbrev="STAIV" category="SECURITY" instanceHash="84bd01f88a43e04fd766c905ed25cca3" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="329">
+    <ShortMessage>Static IV</ShortMessage>
+    <LongMessage>The initialization vector (IV) is not properly generated</LongMessage>
+    <Class classname="com.minimals.IV.complexCase.ComplexStaticIV" primary="true">
+      <SourceLine classname="com.minimals.IV.complexCase.ComplexStaticIV" start="6" end="17" sourcefile="ComplexStaticIV.java" sourcepath="com/minimals/IV/complexCase/ComplexStaticIV.java">
+        <Message>At ComplexStaticIV.java:[lines 6-17]</Message>
+      </SourceLine>
+      <Message>In class com.minimals.IV.complexCase.ComplexStaticIV</Message>
+    </Class>
+    <Method classname="com.minimals.IV.complexCase.ComplexStaticIV" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="com.minimals.IV.complexCase.ComplexStaticIV" start="8" end="17" startBytecode="0" endBytecode="203" sourcefile="ComplexStaticIV.java" sourcepath="com/minimals/IV/complexCase/ComplexStaticIV.java"/>
+      <Message>In method com.minimals.IV.complexCase.ComplexStaticIV.main(String[])</Message>
+    </Method>
+    <SourceLine classname="com.minimals.IV.complexCase.ComplexStaticIV" primary="true" start="14" end="14" startBytecode="49" endBytecode="49" sourcefile="ComplexStaticIV.java" sourcepath="com/minimals/IV/complexCase/ComplexStaticIV.java">
+      <Message>At ComplexStaticIV.java:[line 14]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="STATIC_IV" priority="2" rank="12" abbrev="STAIV" category="SECURITY" instanceHash="66314ef03b39c31103d2db66cdca82f8" instanceOccurrenceNum="0" instanceOccurrenceMax="1" cweid="329">
+    <ShortMessage>Static IV</ShortMessage>
+    <LongMessage>The initialization vector (IV) is not properly generated</LongMessage>
+    <Class classname="com.minimals.IV.stash.StaticIV" primary="true">
+      <SourceLine classname="com.minimals.IV.stash.StaticIV" start="6" end="27" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/stash/StaticIV.java">
+        <Message>At StaticIV.java:[lines 6-27]</Message>
+      </SourceLine>
+      <Message>In class com.minimals.IV.stash.StaticIV</Message>
+    </Class>
+    <Method classname="com.minimals.IV.stash.StaticIV" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="com.minimals.IV.stash.StaticIV" start="18" end="27" startBytecode="0" endBytecode="256" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/stash/StaticIV.java"/>
+      <Message>In method com.minimals.IV.stash.StaticIV.main(String[])</Message>
+    </Method>
+    <SourceLine classname="com.minimals.IV.stash.StaticIV" primary="true" start="22" end="22" startBytecode="48" endBytecode="48" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/stash/StaticIV.java">
+      <Message>At StaticIV.java:[line 22]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="STATIC_IV" priority="2" rank="12" abbrev="STAIV" category="SECURITY" instanceHash="66314ef03b39c31103d2db66cdca82f8" instanceOccurrenceNum="1" instanceOccurrenceMax="1" cweid="329">
+    <ShortMessage>Static IV</ShortMessage>
+    <LongMessage>The initialization vector (IV) is not properly generated</LongMessage>
+    <Class classname="com.minimals.IV.stash.StaticIV" primary="true">
+      <SourceLine classname="com.minimals.IV.stash.StaticIV" start="6" end="27" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/stash/StaticIV.java">
+        <Message>At StaticIV.java:[lines 6-27]</Message>
+      </SourceLine>
+      <Message>In class com.minimals.IV.stash.StaticIV</Message>
+    </Class>
+    <Method classname="com.minimals.IV.stash.StaticIV" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="com.minimals.IV.stash.StaticIV" start="18" end="27" startBytecode="0" endBytecode="256" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/stash/StaticIV.java"/>
+      <Message>In method com.minimals.IV.stash.StaticIV.main(String[])</Message>
+    </Method>
+    <SourceLine classname="com.minimals.IV.stash.StaticIV" primary="true" start="24" end="24" startBytecode="63" endBytecode="63" sourcefile="StaticIV.java" sourcepath="com/minimals/IV/stash/StaticIV.java">
+      <Message>At StaticIV.java:[line 24]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="STATIC_IV" priority="2" rank="12" abbrev="STAIV" category="SECURITY" instanceHash="ad8cd1191adddbc35208bba6ce71b2de" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="329">
+    <ShortMessage>Static IV</ShortMessage>
+    <LongMessage>The initialization vector (IV) is not properly generated</LongMessage>
+    <Class classname="com.minimals.IV.timeCase.CurrentTimeIV" primary="true">
+      <SourceLine classname="com.minimals.IV.timeCase.CurrentTimeIV" start="7" end="21" sourcefile="CurrentTimeIV.java" sourcepath="com/minimals/IV/timeCase/CurrentTimeIV.java">
+        <Message>At CurrentTimeIV.java:[lines 7-21]</Message>
+      </SourceLine>
+      <Message>In class com.minimals.IV.timeCase.CurrentTimeIV</Message>
+    </Class>
+    <Method classname="com.minimals.IV.timeCase.CurrentTimeIV" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="com.minimals.IV.timeCase.CurrentTimeIV" start="9" end="21" startBytecode="0" endBytecode="220" sourcefile="CurrentTimeIV.java" sourcepath="com/minimals/IV/timeCase/CurrentTimeIV.java"/>
+      <Message>In method com.minimals.IV.timeCase.CurrentTimeIV.main(String[])</Message>
+    </Method>
+    <SourceLine classname="com.minimals.IV.timeCase.CurrentTimeIV" primary="true" start="15" end="15" startBytecode="41" endBytecode="41" sourcefile="CurrentTimeIV.java" sourcepath="com/minimals/IV/timeCase/CurrentTimeIV.java">
+      <Message>At CurrentTimeIV.java:[line 15]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="WEAK_MESSAGE_DIGEST_MD5" priority="1" rank="10" abbrev="SECMD5" category="SECURITY" instanceHash="ef4e4993dde1966161518202d5f79e4e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="328">
+    <ShortMessage>MD2, MD4 and MD5 are weak hash functions</ShortMessage>
+    <LongMessage>This API MD5 (MDX) is not a recommended cryptographic hash function</LongMessage>
+    <Class classname="com.minimals.messagedigest.differentCase.MessageDigestComplex" primary="true">
+      <SourceLine classname="com.minimals.messagedigest.differentCase.MessageDigestComplex" start="5" end="15" sourcefile="MessageDigestComplex.java" sourcepath="com/minimals/messagedigest/differentCase/MessageDigestComplex.java">
+        <Message>At MessageDigestComplex.java:[lines 5-15]</Message>
+      </SourceLine>
+      <Message>In class com.minimals.messagedigest.differentCase.MessageDigestComplex</Message>
+    </Class>
+    <Method classname="com.minimals.messagedigest.differentCase.MessageDigestComplex" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="com.minimals.messagedigest.differentCase.MessageDigestComplex" start="9" end="15" startBytecode="0" endBytecode="127" sourcefile="MessageDigestComplex.java" sourcepath="com/minimals/messagedigest/differentCase/MessageDigestComplex.java"/>
+      <Message>In method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[])</Message>
+    </Method>
+    <SourceLine classname="com.minimals.messagedigest.differentCase.MessageDigestComplex" primary="true" start="9" end="9" startBytecode="2" endBytecode="2" sourcefile="MessageDigestComplex.java" sourcepath="com/minimals/messagedigest/differentCase/MessageDigestComplex.java">
+      <Message>At MessageDigestComplex.java:[line 9]</Message>
+    </SourceLine>
+    <String value="MD5">
+      <Message>Value MD5</Message>
+    </String>
+  </BugInstance>
+  <BugInstance type="STATIC_IV" priority="2" rank="12" abbrev="STAIV" category="SECURITY" instanceHash="cc388209be1acb06ab972fde92ffd7a7" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="329">
+    <ShortMessage>Static IV</ShortMessage>
+    <LongMessage>The initialization vector (IV) is not properly generated</LongMessage>
+    <Class classname="com.minimals.newOps.StaticKeystore.Static" primary="true">
+      <SourceLine classname="com.minimals.newOps.StaticKeystore.Static" start="3" end="8" sourcefile="Static.java" sourcepath="com/minimals/newOps/StaticKeystore/Static.java">
+        <Message>At Static.java:[lines 3-8]</Message>
+      </SourceLine>
+      <Message>In class com.minimals.newOps.StaticKeystore.Static</Message>
+    </Class>
+    <Method classname="com.minimals.newOps.StaticKeystore.Static" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="com.minimals.newOps.StaticKeystore.Static" start="5" end="8" startBytecode="0" endBytecode="100" sourcefile="Static.java" sourcepath="com/minimals/newOps/StaticKeystore/Static.java"/>
+      <Message>In method com.minimals.newOps.StaticKeystore.Static.main(String[])</Message>
+    </Method>
+    <SourceLine classname="com.minimals.newOps.StaticKeystore.Static" primary="true" start="7" end="7" startBytecode="22" endBytecode="22" sourcefile="Static.java" sourcepath="com/minimals/newOps/StaticKeystore/Static.java">
+      <Message>At Static.java:[line 7]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="WEAK_MESSAGE_DIGEST_MD5" abbrev="SECMD5" category="SECURITY" cweid="328">
+    <ShortDescription>MD2, MD4 and MD5 are weak hash functions</ShortDescription>
+    <Details><![CDATA[
+            
+<p>The algorithms MD2, MD4 and MD5 are not a recommended MessageDigest. <b>PBKDF2</b> should be used to hash password for example.</p>
+
+<blockquote>
+    "The security of the MD5 hash function is severely compromised. A collision attack exists that can find collisions
+    within seconds on a computer with a 2.6 GHz Pentium 4 processor (complexity of 2<sup>24.1</sup>).[1] Further, there is also a
+    chosen-prefix collision attack that can produce a collision for two inputs with specified prefixes within hours, using
+    off-the-shelf computing hardware (complexity 2<sup>39</sup>).[2]"<br/>
+    - <a href="https://en.wikipedia.org/wiki/MD5#Security">Wikipedia: MD5 - Security</a>
+</blockquote>
+
+<blockquote>
+    "<b>SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, and SHA-512/256</b>:<br/>
+    The use of these hash functions is acceptable for all hash function applications."<br/>
+    - <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf">NIST: Transitioning the Use of Cryptographic Algorithms and Key Lengths p.15</a>
+</blockquote>
+<blockquote>
+    "The main idea of a PBKDF is to slow dictionary or brute force attacks on the passwords by increasing the time
+    needed to test each password. An attacker with a list of likely passwords can evaluate the PBKDF using the known
+    iteration counter and the salt. Since an attacker has to spend a significant amount of computing time for each try,
+    it becomes harder to apply the dictionary or brute force attacks."<br/>
+- <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf">NIST: Recommendation for Password-Based Key Derivation  p.12</a>
+</blockquote>
+<br/>
+<p>
+    <b>Vulnerable Code:</b><br/>
+    <pre>MessageDigest md5Digest = MessageDigest.getInstance("MD5");
+    md5Digest.update(password.getBytes());
+    byte[] hashValue = md5Digest.digest();</pre>
+    <br/>
+    <pre>byte[] hashValue = DigestUtils.getMd5Digest().digest(password.getBytes());</pre>
+</p>
+<br/>
+<p>
+    <b>Solution (Using bouncy castle):</b><br/>
+    <pre>public static byte[] getEncryptedPassword(String password, byte[] salt) throws NoSuchAlgorithmException, InvalidKeySpecException {
+    PKCS5S2ParametersGenerator gen = new PKCS5S2ParametersGenerator(new SHA256Digest());
+    gen.init(password.getBytes("UTF-8"), salt.getBytes(), 4096);
+    return ((KeyParameter) gen.generateDerivedParameters(256)).getKey();
+}</pre>
+    <br/>
+    <b>Solution (Java 8 and later):</b><br/>
+    <pre>public static byte[] getEncryptedPassword(String password, byte[] salt) throws NoSuchAlgorithmException, InvalidKeySpecException {
+    KeySpec spec = new PBEKeySpec(password.toCharArray(), salt, 4096, 256 * 8);
+    SecretKeyFactory f = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+    return f.generateSecret(spec).getEncoded();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+[1] <a href="https://www.win.tue.nl/hashclash/On%20Collisions%20for%20MD5%20-%20M.M.J.%20Stevens.pdf">On Collisions for MD5</a>: Master Thesis by M.M.J. Stevens<br/>
+[2] <a href="https://homepages.cwi.nl/~stevens/papers/stJOC%20-%20Chosen-Prefix%20Collisions%20for%20MD5%20and%20Applications.pdf">Chosen-prefix collisions for MD5 and applications</a>: Paper written by Marc Stevens<br/>
+<a href="https://en.wikipedia.org/wiki/MD5">Wikipedia: MD5</a><br/>
+<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf">NIST: Transitioning the Use of Cryptographic Algorithms and Key Lengths</a><br/>
+<a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf">NIST: Recommendation for Password-Based Key Derivation</a><br/>
+<a href="https://stackoverflow.com/q/22580853/89769">Stackoverflow: Reliable implementation of PBKDF2-HMAC-SHA256 for Java</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/327.html">CWE-327: Use of a Broken or Risky Cryptographic Algorithm</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="STATIC_IV" abbrev="STAIV" category="SECURITY" cweid="329">
+    <ShortDescription>Static IV</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+    Initialization vector must be regenerated for each message to be encrypted.
+</p>
+<p><b>Vulnerable Code:</b></p>
+<p>
+<pre>
+private static byte[] IV = new byte[16] {(byte)0,(byte)1,(byte)2,[...]};
+
+public void encrypt(String message) throws Exception {
+
+    IvParameterSpec ivSpec = new IvParameterSpec(IV);
+[...]
+</pre>
+<p><b>Solution:</b></p>
+<p>
+<pre>
+public void encrypt(String message) throws Exception {
+
+    byte[] iv = new byte[16];
+    new SecureRandom().nextBytes(iv);
+
+    IvParameterSpec ivSpec = new IvParameterSpec(iv);
+[...]
+</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://en.wikipedia.org/wiki/Initialization_vector">Wikipedia: Initialization vector</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/329.html">CWE-329: Not Using a Random IV with CBC Mode</a><br/>
+<a href="https://defuse.ca/cbcmodeiv.htm">Encryption - CBC Mode IV: Secret or Not?</a>
+</p>
+            
+        ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SECMD5">
+    <Description>MD2, MD4 and MD5 are weak hash functions</Description>
+  </BugCode>
+  <BugCode abbrev="STAIV">
+    <Description>Static IV</Description>
+  </BugCode>
+  <Errors errors="3" missingClasses="0">
+    <Error>
+      <ErrorMessage>Exception analyzing com.minimals.SSL.HostNameVerifier.e_BadHostnameVerifierWithGenericCondition.ABadHostNameVerifier using detector com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector</ErrorMessage>
+      <Exception>java.lang.NullPointerException</Exception>
+      <StackTrace>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector.isEmptyImplementation(WeakTrustManagerDetector.java:107)</StackTrace>
+      <StackTrace>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector.visitClassContext(WeakTrustManagerDetector.java:88)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.DetectorToDetector2Adapter.visitClass(DetectorToDetector2Adapter.java:76)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.lambda$analyzeApplication$1(FindBugs2.java:1108)</StackTrace>
+      <StackTrace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.CurrentThreadExecutorService.execute(CurrentThreadExecutorService.java:86)</StackTrace>
+      <StackTrace>java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:238)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.analyzeApplication(FindBugs2.java:1118)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:309)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.LaunchAppropriateUI.launch(LaunchAppropriateUI.java:106)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.LaunchAppropriateUI.main(LaunchAppropriateUI.java:198)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Exception analyzing com.minimals.ssl.HostNameVerifier.c_BadHostNameVerifier.ABadHostNameVerifier using detector com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector</ErrorMessage>
+      <Exception>java.lang.NullPointerException</Exception>
+      <StackTrace>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector.isEmptyImplementation(WeakTrustManagerDetector.java:107)</StackTrace>
+      <StackTrace>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector.visitClassContext(WeakTrustManagerDetector.java:88)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.DetectorToDetector2Adapter.visitClass(DetectorToDetector2Adapter.java:76)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.lambda$analyzeApplication$1(FindBugs2.java:1108)</StackTrace>
+      <StackTrace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.CurrentThreadExecutorService.execute(CurrentThreadExecutorService.java:86)</StackTrace>
+      <StackTrace>java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:238)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.analyzeApplication(FindBugs2.java:1118)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:309)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.LaunchAppropriateUI.launch(LaunchAppropriateUI.java:106)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.LaunchAppropriateUI.main(LaunchAppropriateUI.java:198)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Exception analyzing com.minimals.SSL.HostNameVerifier.d_BadHostnameVerifierWithCondition.ABadHostNameVerifier using detector com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector</ErrorMessage>
+      <Exception>java.lang.NullPointerException</Exception>
+      <StackTrace>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector.isEmptyImplementation(WeakTrustManagerDetector.java:107)</StackTrace>
+      <StackTrace>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetector.visitClassContext(WeakTrustManagerDetector.java:88)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.DetectorToDetector2Adapter.visitClass(DetectorToDetector2Adapter.java:76)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.lambda$analyzeApplication$1(FindBugs2.java:1108)</StackTrace>
+      <StackTrace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.CurrentThreadExecutorService.execute(CurrentThreadExecutorService.java:86)</StackTrace>
+      <StackTrace>java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:238)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.analyzeApplication(FindBugs2.java:1118)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:309)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.LaunchAppropriateUI.launch(LaunchAppropriateUI.java:106)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.LaunchAppropriateUI.main(LaunchAppropriateUI.java:198)</StackTrace>
+    </Error>
+  </Errors>
+  <FindBugsSummary timestamp="Sat, 15 Apr 2023 20:40:09 +0000" total_classes="101" referenced_classes="128" total_bugs="7" total_size="1035" num_packages="75" java_version="1.8.0_362" vm_version="25.362-b09" cpu_seconds="23.67" clock_seconds="25.45" peak_mbytes="283.65" alloc_mbytes="1771.00" gc_seconds="0.27" priority_2="6" priority_1="1">
+    <FileStats path="com/minimals/Cipher/aesGCMNoPadding/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/IV/baseCase/StaticIV.java" bugCount="1" size="9" bugHash="907095853a3e8e51d9ca6e14bead7494"/>
+    <FileStats path="com/minimals/IV/complexCase/ComplexStaticIV.java" bugCount="1" size="11" bugHash="be30ea6362cb42dbe14570440f089e4e"/>
+    <FileStats path="com/minimals/IV/stash/StaticIV.java" bugCount="2" size="13" bugHash="567a5c5026c7711da19eb85a9e90a855"/>
+    <FileStats path="com/minimals/IV/stash/Supplier.java" bugCount="0" size="8"/>
+    <FileStats path="com/minimals/IV/timeCase/CurrentTimeIV.java" bugCount="1" size="14" bugHash="9f2f5318b666f69258955a41d68438fa"/>
+    <FileStats path="com/minimals/RandomNumber/staticseedsecurerandom/basecase/SecureRand.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/RandomNumber/staticseedsecurerandom/basecase_getinstance/SecureRand.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/RandomNumber/staticseedsecurerandom/basecase_seedconstructor/SecureRand.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/HostNameVerifier/d_BadHostnameVerifierWithCondition/ABadHostNameVerifier.java" bugCount="0" size="4"/>
+    <FileStats path="com/minimals/SSL/HostNameVerifier/d_BadHostnameVerifierWithCondition/BadHostName.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/HostNameVerifier/e_BadHostnameVerifierWithGenericCondition/ABadHostNameVerifier.java" bugCount="0" size="4"/>
+    <FileStats path="com/minimals/SSL/HostNameVerifier/e_BadHostnameVerifierWithGenericCondition/BadHostName.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/HostNameVerifier/f_BadHostnameVerifierWithCondition/ABadHostNameVerifier.java" bugCount="0" size="3"/>
+    <FileStats path="com/minimals/SSL/HostNameVerifier/f_BadHostnameVerifierWithCondition/BadHostName.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/HostNameVerifier/g_BadHostnameVerifierWithGenericCondition/ABadHostNameVerifier.java" bugCount="0" size="3"/>
+    <FileStats path="com/minimals/SSL/HostNameVerifier/g_BadHostnameVerifierWithGenericCondition/BadHostName.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/trustmanager/BadSSL_Naive/BadSSL_Naive.java" bugCount="0" size="8"/>
+    <FileStats path="com/minimals/SSL/trustmanager/BareBone_X509ExtendedTrustManagerCanBypass/BareBone_X509ExtendedTrustManagerCanBypass.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/trustmanager/BareBone_X509TrustManager/BareBone_X509TrustManager.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/SSL/trustmanager/BareBone_X509TrustManagerCanBypass/BareBone_X509TrustManagerCanBypass.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/SSL/trustmanager/BareBone_X509TrustManagerCanBypass/BareBone_X509TrustManagerCanBypassExt.java" bugCount="0" size="3"/>
+    <FileStats path="com/minimals/SSL/trustmanager/BareBone_x509TrustManagerCanNotBypass/BareBone_X509TrustManagerCanNotBypass.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/trustmanager/BareBone_x509TrustManagerCanNotBypass/BareBone_X509TrustManagerCanNotBypassExt.java" bugCount="0" size="9"/>
+    <FileStats path="com/minimals/SSL/trustmanager/BareboneTrustManagerDummyStatements/BareboneTrustManagerConditional.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/trustmanager/ITrustManagerUser/ITrustManager.java" bugCount="0" size="1"/>
+    <FileStats path="com/minimals/SSL/trustmanager/ITrustManagerUser/ITrustManagerUser.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/trustmanager/a_BareboneTrustManagerConditional/BareboneTrustManagerConditional.java" bugCount="0" size="6"/>
+    <FileStats path="com/minimals/SSL/trustmanager/b_BareBone_X509TrustManagerCanNotBypass/BareBone_X509TrustManagerCanNotBypass.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/SSL/trustmanager/b_BareBone_X509TrustManagerCanNotBypass/BareBone_X509TrustManagerCanNotBypassExt.java" bugCount="0" size="9"/>
+    <FileStats path="com/minimals/SSL/trustmanager/b_BareboneTrustManagerConditional/BareboneTrustManagerConditional.java" bugCount="0" size="6"/>
+    <FileStats path="com/minimals/SSL/trustmanager/barebonetrustmanagerconditional/BareboneTrustManagerConditional.java" bugCount="0" size="6"/>
+    <FileStats path="com/minimals/SSL/trustmanager/c_BareboneTrustManagerConditional/BareboneTrustManagerConditional.java" bugCount="0" size="6"/>
+    <FileStats path="com/minimals/SSL/trustmanager/c_BareboneTrustManagerConditional/BareboneTrustManagerExt.java" bugCount="0" size="3"/>
+    <FileStats path="com/minimals/cipher/KeyToAlgoAES/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/aesGCMNoPaddingReplaceDES/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/aesStringReplace/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/baseCaseVariable/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/basecase/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/basecaseinterproc/CipherExample.java" bugCount="0" size="12"/>
+    <FileStats path="com/minimals/cipher/differentCase/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/insecureBlowFish/BlowFish.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/keytoalgodes/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/secureBlowFish/BlowFish.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/stringcasetransform/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/cipher/stringreplace/CipherExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/messagedigest/basecase/MessageDigestBase.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/messagedigest/basecasevariable/MessageDigestBase.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/messagedigest/complexCase/MessageDigestComplex.java" bugCount="0" size="9"/>
+    <FileStats path="com/minimals/messagedigest/differentCase/MessageDigestComplex.java" bugCount="1" size="9" bugHash="b6ec93641894460bc62ea7bb2a110a62"/>
+    <FileStats path="com/minimals/messagedigest/interprocedurecase/MessageDigestComplex.java" bugCount="0" size="12"/>
+    <FileStats path="com/minimals/messagedigest/replaceSHA256DES/MessageDigestComplex.java" bugCount="0" size="9"/>
+    <FileStats path="com/minimals/messagedigest/stringCaseTransformation/MessageDigestComplex.java" bugCount="0" size="9"/>
+    <FileStats path="com/minimals/messagedigest/stringReplace/MessageDigestComplex.java" bugCount="0" size="9"/>
+    <FileStats path="com/minimals/newOps/IntOps/BaseCase/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/IntAbsoluteValue/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/IntArithmetic/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/IntFromString/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/IntIterationMultipleCall/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/IntNestedClass/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/IntRoundValue/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/IntValueInVariable/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/IntValueInVariableArithmetic/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/IntOps/Overflow/IntExample.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc10/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc10/CipherPack.java" bugCount="0" size="40"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc15/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc15/CipherPack.java" bugCount="0" size="55"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc20/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc20/CipherPack.java" bugCount="0" size="70"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc3/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc3/CipherPack.java" bugCount="0" size="19"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc4/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc4/CipherPack.java" bugCount="0" size="22"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc5/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/Interproc/Interproc5/CipherPack.java" bugCount="0" size="25"/>
+    <FileStats path="com/minimals/newOps/InterprocAddition/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/InterprocAddition/CipherPack.java" bugCount="0" size="17"/>
+    <FileStats path="com/minimals/newOps/InterprocBaseCaseConditional/CipherExample.java" bugCount="0" size="9"/>
+    <FileStats path="com/minimals/newOps/InterprocBaseCaseConditional/CipherPack.java" bugCount="0" size="18"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional10/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional10/CipherPack.java" bugCount="0" size="42"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional15/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional15/CipherPack.java" bugCount="0" size="57"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional20/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional20/CipherPack.java" bugCount="0" size="52"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional3/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional3/CipherPack.java" bugCount="0" size="21"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional4/CipherPack.java" bugCount="0" size="24"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional5/CipherExample.java" bugCount="0" size="7"/>
+    <FileStats path="com/minimals/newOps/InterprocNestedConditionals/NestedConditional5/CipherPack.java" bugCount="0" size="22"/>
+    <FileStats path="com/minimals/newOps/InterprocObjectSensitive/CipherExample.java" bugCount="0" size="10"/>
+    <FileStats path="com/minimals/newOps/InterprocObjectSensitive/CipherPack.java" bugCount="0" size="13"/>
+    <FileStats path="com/minimals/newOps/StaticKeystore/Static.java" bugCount="1" size="8" bugHash="1b952b54a644c1006f4a03ceaa915eac"/>
+    <FileStats path="com/minimals/newOps/StringValueOfChar/CipherExample.java" bugCount="0" size="9"/>
+    <FileStats path="com/minimals/ssl/Context/baseCase/ContextOfSSL.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/ssl/HostNameVerifier/a_BadHostNameVerifier/BadHostName.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/ssl/HostNameVerifier/b_BadHostNameVerifier/ABadHostNameVerifier.java" bugCount="0" size="3"/>
+    <FileStats path="com/minimals/ssl/HostNameVerifier/b_BadHostNameVerifier/BadHostName.java" bugCount="0" size="5"/>
+    <FileStats path="com/minimals/ssl/HostNameVerifier/c_BadHostNameVerifier/ABadHostNameVerifier.java" bugCount="0" size="4"/>
+    <FileStats path="com/minimals/ssl/HostNameVerifier/c_BadHostNameVerifier/BadHostName.java" bugCount="0" size="5"/>
+    <PackageStats package="com.minimals.Cipher.aesGCMNoPadding" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="com.minimals.Cipher.aesGCMNoPadding.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.IV.baseCase" total_bugs="1" total_types="1" total_size="9" priority_2="1">
+      <ClassStats class="com.minimals.IV.baseCase.StaticIV" sourceFile="StaticIV.java" interface="false" size="9" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.IV.complexCase" total_bugs="1" total_types="1" total_size="11" priority_2="1">
+      <ClassStats class="com.minimals.IV.complexCase.ComplexStaticIV" sourceFile="ComplexStaticIV.java" interface="false" size="11" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.IV.stash" total_bugs="2" total_types="2" total_size="21" priority_2="2">
+      <ClassStats class="com.minimals.IV.stash.StaticIV" sourceFile="StaticIV.java" interface="false" size="13" bugs="2" priority_2="2"/>
+      <ClassStats class="com.minimals.IV.stash.Supplier" sourceFile="Supplier.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.IV.timeCase" total_bugs="1" total_types="1" total_size="14" priority_2="1">
+      <ClassStats class="com.minimals.IV.timeCase.CurrentTimeIV" sourceFile="CurrentTimeIV.java" interface="false" size="14" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.RandomNumber.staticseedsecurerandom.basecase" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.RandomNumber.staticseedsecurerandom.basecase.SecureRand" sourceFile="SecureRand.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.RandomNumber.staticseedsecurerandom.basecase_getinstance" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.RandomNumber.staticseedsecurerandom.basecase_getinstance.SecureRand" sourceFile="SecureRand.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.RandomNumber.staticseedsecurerandom.basecase_seedconstructor" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.RandomNumber.staticseedsecurerandom.basecase_seedconstructor.SecureRand" sourceFile="SecureRand.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.HostNameVerifier.d_BadHostnameVerifierWithCondition" total_bugs="0" total_types="2" total_size="9">
+      <ClassStats class="com.minimals.SSL.HostNameVerifier.d_BadHostnameVerifierWithCondition.ABadHostNameVerifier" sourceFile="ABadHostNameVerifier.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.HostNameVerifier.d_BadHostnameVerifierWithCondition.BadHostName" sourceFile="BadHostName.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.HostNameVerifier.e_BadHostnameVerifierWithGenericCondition" total_bugs="0" total_types="2" total_size="9">
+      <ClassStats class="com.minimals.SSL.HostNameVerifier.e_BadHostnameVerifierWithGenericCondition.ABadHostNameVerifier" sourceFile="ABadHostNameVerifier.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.HostNameVerifier.e_BadHostnameVerifierWithGenericCondition.BadHostName" sourceFile="BadHostName.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.HostNameVerifier.f_BadHostnameVerifierWithCondition" total_bugs="0" total_types="2" total_size="8">
+      <ClassStats class="com.minimals.SSL.HostNameVerifier.f_BadHostnameVerifierWithCondition.ABadHostNameVerifier" sourceFile="ABadHostNameVerifier.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.HostNameVerifier.f_BadHostnameVerifierWithCondition.BadHostName" sourceFile="BadHostName.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.HostNameVerifier.g_BadHostnameVerifierWithGenericCondition" total_bugs="0" total_types="2" total_size="8">
+      <ClassStats class="com.minimals.SSL.HostNameVerifier.g_BadHostnameVerifierWithGenericCondition.ABadHostNameVerifier" sourceFile="ABadHostNameVerifier.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.HostNameVerifier.g_BadHostnameVerifierWithGenericCondition.BadHostName" sourceFile="BadHostName.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.BadSSL_Naive" total_bugs="0" total_types="1" total_size="8">
+      <ClassStats class="com.minimals.SSL.trustmanager.BadSSL_Naive.BadSSL_Naive" sourceFile="BadSSL_Naive.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.BareBone_X509ExtendedTrustManagerCanBypass" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.SSL.trustmanager.BareBone_X509ExtendedTrustManagerCanBypass.BareBone_X509ExtendedTrustManagerCanBypass" sourceFile="BareBone_X509ExtendedTrustManagerCanBypass.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.BareBone_X509TrustManager" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="com.minimals.SSL.trustmanager.BareBone_X509TrustManager.BareBone_X509TrustManager" sourceFile="BareBone_X509TrustManager.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.BareBone_X509TrustManagerCanBypass" total_bugs="0" total_types="2" total_size="10">
+      <ClassStats class="com.minimals.SSL.trustmanager.BareBone_X509TrustManagerCanBypass.BareBone_X509TrustManagerCanBypass" sourceFile="BareBone_X509TrustManagerCanBypass.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.trustmanager.BareBone_X509TrustManagerCanBypass.BareBone_X509TrustManagerCanBypassExt" sourceFile="BareBone_X509TrustManagerCanBypassExt.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.BareBone_x509TrustManagerCanNotBypass" total_bugs="0" total_types="2" total_size="14">
+      <ClassStats class="com.minimals.SSL.trustmanager.BareBone_x509TrustManagerCanNotBypass.BareBone_X509TrustManagerCanNotBypass" sourceFile="BareBone_X509TrustManagerCanNotBypass.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.trustmanager.BareBone_x509TrustManagerCanNotBypass.BareBone_X509TrustManagerCanNotBypassExt" sourceFile="BareBone_X509TrustManagerCanNotBypassExt.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.BareboneTrustManagerDummyStatements" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.SSL.trustmanager.BareboneTrustManagerDummyStatements.BareboneTrustManagerConditional" sourceFile="BareboneTrustManagerConditional.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.ITrustManagerUser" total_bugs="0" total_types="2" total_size="6">
+      <ClassStats class="com.minimals.SSL.trustmanager.ITrustManagerUser.ITrustManager" sourceFile="ITrustManager.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.trustmanager.ITrustManagerUser.ITrustManagerUser" sourceFile="ITrustManagerUser.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.a_BareboneTrustManagerConditional" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="com.minimals.SSL.trustmanager.a_BareboneTrustManagerConditional.BareboneTrustManagerConditional" sourceFile="BareboneTrustManagerConditional.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.b_BareBone_X509TrustManagerCanNotBypass" total_bugs="0" total_types="2" total_size="14">
+      <ClassStats class="com.minimals.SSL.trustmanager.b_BareBone_X509TrustManagerCanNotBypass.BareBone_X509TrustManagerCanNotBypass" sourceFile="BareBone_X509TrustManagerCanNotBypass.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.trustmanager.b_BareBone_X509TrustManagerCanNotBypass.BareBone_X509TrustManagerCanNotBypassExt" sourceFile="BareBone_X509TrustManagerCanNotBypassExt.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.b_BareboneTrustManagerConditional" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="com.minimals.SSL.trustmanager.b_BareboneTrustManagerConditional.BareboneTrustManagerConditional" sourceFile="BareboneTrustManagerConditional.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.barebonetrustmanagerconditional" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="com.minimals.SSL.trustmanager.barebonetrustmanagerconditional.BareboneTrustManagerConditional" sourceFile="BareboneTrustManagerConditional.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.SSL.trustmanager.c_BareboneTrustManagerConditional" total_bugs="0" total_types="2" total_size="9">
+      <ClassStats class="com.minimals.SSL.trustmanager.c_BareboneTrustManagerConditional.BareboneTrustManagerConditional" sourceFile="BareboneTrustManagerConditional.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.minimals.SSL.trustmanager.c_BareboneTrustManagerConditional.BareboneTrustManagerExt" sourceFile="BareboneTrustManagerExt.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.KeyToAlgoAES" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.KeyToAlgoAES.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.aesGCMNoPaddingReplaceDES" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.aesGCMNoPaddingReplaceDES.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.aesStringReplace" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.aesStringReplace.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.baseCaseVariable" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.baseCaseVariable.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.basecase" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.basecase.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.basecaseinterproc" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="com.minimals.cipher.basecaseinterproc.CipherExample" sourceFile="CipherExample.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.differentCase" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.differentCase.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.insecureBlowFish" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.insecureBlowFish.BlowFish" sourceFile="BlowFish.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.keytoalgodes" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.keytoalgodes.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.secureBlowFish" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.secureBlowFish.BlowFish" sourceFile="BlowFish.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.stringcasetransform" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.stringcasetransform.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.cipher.stringreplace" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.cipher.stringreplace.CipherExample" sourceFile="CipherExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.messagedigest.basecase" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.messagedigest.basecase.MessageDigestBase" sourceFile="MessageDigestBase.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.messagedigest.basecasevariable" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.messagedigest.basecasevariable.MessageDigestBase" sourceFile="MessageDigestBase.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.messagedigest.complexCase" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.minimals.messagedigest.complexCase.MessageDigestComplex" sourceFile="MessageDigestComplex.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.messagedigest.differentCase" total_bugs="1" total_types="1" total_size="9" priority_1="1">
+      <ClassStats class="com.minimals.messagedigest.differentCase.MessageDigestComplex" sourceFile="MessageDigestComplex.java" interface="false" size="9" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.messagedigest.interprocedurecase" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="com.minimals.messagedigest.interprocedurecase.MessageDigestComplex" sourceFile="MessageDigestComplex.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.messagedigest.replaceSHA256DES" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.minimals.messagedigest.replaceSHA256DES.MessageDigestComplex" sourceFile="MessageDigestComplex.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.messagedigest.stringCaseTransformation" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.minimals.messagedigest.stringCaseTransformation.MessageDigestComplex" sourceFile="MessageDigestComplex.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.messagedigest.stringReplace" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.minimals.messagedigest.stringReplace.MessageDigestComplex" sourceFile="MessageDigestComplex.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.BaseCase" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.BaseCase.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.IntAbsoluteValue" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.IntAbsoluteValue.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.IntArithmetic" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.IntArithmetic.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.IntFromString" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.IntFromString.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.IntIterationMultipleCall" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.IntIterationMultipleCall.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.IntNestedClass" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.IntNestedClass.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.IntRoundValue" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.IntRoundValue.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.IntValueInVariable" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.IntValueInVariable.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.IntValueInVariableArithmetic" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.IntValueInVariableArithmetic.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.IntOps.Overflow" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.newOps.IntOps.Overflow.IntExample" sourceFile="IntExample.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.Interproc.Interproc10" total_bugs="0" total_types="2" total_size="47">
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc10.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc10.CipherPack" sourceFile="CipherPack.java" interface="false" size="40" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.Interproc.Interproc15" total_bugs="0" total_types="2" total_size="62">
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc15.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc15.CipherPack" sourceFile="CipherPack.java" interface="false" size="55" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.Interproc.Interproc20" total_bugs="0" total_types="2" total_size="77">
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc20.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc20.CipherPack" sourceFile="CipherPack.java" interface="false" size="70" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.Interproc.Interproc3" total_bugs="0" total_types="2" total_size="26">
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc3.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc3.CipherPack" sourceFile="CipherPack.java" interface="false" size="19" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.Interproc.Interproc4" total_bugs="0" total_types="2" total_size="29">
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc4.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc4.CipherPack" sourceFile="CipherPack.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.Interproc.Interproc5" total_bugs="0" total_types="2" total_size="32">
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc5.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.Interproc.Interproc5.CipherPack" sourceFile="CipherPack.java" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocAddition" total_bugs="0" total_types="2" total_size="24">
+      <ClassStats class="com.minimals.newOps.InterprocAddition.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.InterprocAddition.CipherPack" sourceFile="CipherPack.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocBaseCaseConditional" total_bugs="0" total_types="2" total_size="27">
+      <ClassStats class="com.minimals.newOps.InterprocBaseCaseConditional.CipherExample" sourceFile="CipherExample.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.InterprocBaseCaseConditional.CipherPack" sourceFile="CipherPack.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocNestedConditionals.NestedConditional10" total_bugs="0" total_types="2" total_size="49">
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional10.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional10.CipherPack" sourceFile="CipherPack.java" interface="false" size="42" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocNestedConditionals.NestedConditional15" total_bugs="0" total_types="2" total_size="64">
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional15.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional15.CipherPack" sourceFile="CipherPack.java" interface="false" size="57" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocNestedConditionals.NestedConditional20" total_bugs="0" total_types="2" total_size="59">
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional20.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional20.CipherPack" sourceFile="CipherPack.java" interface="false" size="52" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocNestedConditionals.NestedConditional3" total_bugs="0" total_types="2" total_size="28">
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional3.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional3.CipherPack" sourceFile="CipherPack.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocNestedConditionals.NestedConditional4" total_bugs="0" total_types="1" total_size="24">
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional4.CipherPack" sourceFile="CipherPack.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocNestedConditionals.NestedConditional5" total_bugs="0" total_types="2" total_size="29">
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional5.CipherExample" sourceFile="CipherExample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.InterprocNestedConditionals.NestedConditional5.CipherPack" sourceFile="CipherPack.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.InterprocObjectSensitive" total_bugs="0" total_types="2" total_size="23">
+      <ClassStats class="com.minimals.newOps.InterprocObjectSensitive.CipherExample" sourceFile="CipherExample.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.minimals.newOps.InterprocObjectSensitive.CipherPack" sourceFile="CipherPack.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.StaticKeystore" total_bugs="1" total_types="1" total_size="8" priority_2="1">
+      <ClassStats class="com.minimals.newOps.StaticKeystore.Static" sourceFile="Static.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.newOps.StringValueOfChar" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.minimals.newOps.StringValueOfChar.CipherExample" sourceFile="CipherExample.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.ssl.Context.baseCase" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.ssl.Context.baseCase.ContextOfSSL" sourceFile="ContextOfSSL.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.ssl.HostNameVerifier.a_BadHostNameVerifier" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="com.minimals.ssl.HostNameVerifier.a_BadHostNameVerifier.BadHostName" sourceFile="BadHostName.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.ssl.HostNameVerifier.b_BadHostNameVerifier" total_bugs="0" total_types="2" total_size="8">
+      <ClassStats class="com.minimals.ssl.HostNameVerifier.b_BadHostNameVerifier.ABadHostNameVerifier" sourceFile="ABadHostNameVerifier.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.minimals.ssl.HostNameVerifier.b_BadHostNameVerifier.BadHostName" sourceFile="BadHostName.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.minimals.ssl.HostNameVerifier.c_BadHostNameVerifier" total_bugs="0" total_types="2" total_size="9">
+      <ClassStats class="com.minimals.ssl.HostNameVerifier.c_BadHostNameVerifier.ABadHostNameVerifier" sourceFile="ABadHostNameVerifier.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.minimals.ssl.HostNameVerifier.c_BadHostNameVerifier.BadHostName" sourceFile="BadHostName.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="3532" invocations="657" avgMicrosecondsPerInvocation="5377" maxMicrosecondsPerInvocation="223676" standardDeviationMicrosecondsPerInvocation="14085"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1924" invocations="633" avgMicrosecondsPerInvocation="3040" maxMicrosecondsPerInvocation="145963" standardDeviationMicrosecondsPerInvocation="9459"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="568" invocations="128" avgMicrosecondsPerInvocation="4437" maxMicrosecondsPerInvocation="184371" standardDeviationMicrosecondsPerInvocation="18440"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="431" invocations="128" avgMicrosecondsPerInvocation="3370" maxMicrosecondsPerInvocation="40886" standardDeviationMicrosecondsPerInvocation="7800"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectStatistics" totalMilliseconds="402" invocations="128" avgMicrosecondsPerInvocation="3144" maxMicrosecondsPerInvocation="62240" standardDeviationMicrosecondsPerInvocation="9698"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="307" invocations="337" avgMicrosecondsPerInvocation="912" maxMicrosecondsPerInvocation="118235" standardDeviationMicrosecondsPerInvocation="6709"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="292" invocations="283" avgMicrosecondsPerInvocation="1034" maxMicrosecondsPerInvocation="30844" standardDeviationMicrosecondsPerInvocation="3083"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="265" invocations="599" avgMicrosecondsPerInvocation="442" maxMicrosecondsPerInvocation="73103" standardDeviationMicrosecondsPerInvocation="3127"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="258" invocations="366" avgMicrosecondsPerInvocation="707" maxMicrosecondsPerInvocation="27370" standardDeviationMicrosecondsPerInvocation="2458"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="237" invocations="283" avgMicrosecondsPerInvocation="837" maxMicrosecondsPerInvocation="18806" standardDeviationMicrosecondsPerInvocation="2131"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="220" invocations="286" avgMicrosecondsPerInvocation="772" maxMicrosecondsPerInvocation="21326" standardDeviationMicrosecondsPerInvocation="2066"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="187" invocations="283" avgMicrosecondsPerInvocation="662" maxMicrosecondsPerInvocation="14343" standardDeviationMicrosecondsPerInvocation="1689"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="186" invocations="128" avgMicrosecondsPerInvocation="1459" maxMicrosecondsPerInvocation="76517" standardDeviationMicrosecondsPerInvocation="7505"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="183" invocations="288" avgMicrosecondsPerInvocation="636" maxMicrosecondsPerInvocation="13466" standardDeviationMicrosecondsPerInvocation="1739"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="180" invocations="288" avgMicrosecondsPerInvocation="625" maxMicrosecondsPerInvocation="14381" standardDeviationMicrosecondsPerInvocation="1687"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectNullableMethodStatus" totalMilliseconds="169" invocations="128" avgMicrosecondsPerInvocation="1323" maxMicrosecondsPerInvocation="45550" standardDeviationMicrosecondsPerInvocation="5308"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="149" invocations="286" avgMicrosecondsPerInvocation="522" maxMicrosecondsPerInvocation="86991" standardDeviationMicrosecondsPerInvocation="5154"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="149" invocations="128" avgMicrosecondsPerInvocation="1164" maxMicrosecondsPerInvocation="26248" standardDeviationMicrosecondsPerInvocation="3431"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="145" invocations="283" avgMicrosecondsPerInvocation="514" maxMicrosecondsPerInvocation="9910" standardDeviationMicrosecondsPerInvocation="1172"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="143" invocations="39471" avgMicrosecondsPerInvocation="3" maxMicrosecondsPerInvocation="11599" standardDeviationMicrosecondsPerInvocation="90"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="111" invocations="192" avgMicrosecondsPerInvocation="582" maxMicrosecondsPerInvocation="16435" standardDeviationMicrosecondsPerInvocation="1728"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="107" invocations="128" avgMicrosecondsPerInvocation="842" maxMicrosecondsPerInvocation="32218" standardDeviationMicrosecondsPerInvocation="3255"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="107" invocations="128" avgMicrosecondsPerInvocation="838" maxMicrosecondsPerInvocation="28853" standardDeviationMicrosecondsPerInvocation="3116"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectMethodsReturningImmutableCollections" totalMilliseconds="81" invocations="128" avgMicrosecondsPerInvocation="638" maxMicrosecondsPerInvocation="18276" standardDeviationMicrosecondsPerInvocation="2320"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RedundantConditions" totalMilliseconds="80" invocations="101" avgMicrosecondsPerInvocation="795" maxMicrosecondsPerInvocation="71275" standardDeviationMicrosecondsPerInvocation="7056"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="80" invocations="128" avgMicrosecondsPerInvocation="627" maxMicrosecondsPerInvocation="31112" standardDeviationMicrosecondsPerInvocation="2851"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="77" invocations="101" avgMicrosecondsPerInvocation="770" maxMicrosecondsPerInvocation="9597" standardDeviationMicrosecondsPerInvocation="1698"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.ListUsageIssues" totalMilliseconds="76" invocations="101" avgMicrosecondsPerInvocation="753" maxMicrosecondsPerInvocation="58744" standardDeviationMicrosecondsPerInvocation="5880"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="72" invocations="128" avgMicrosecondsPerInvocation="565" maxMicrosecondsPerInvocation="15293" standardDeviationMicrosecondsPerInvocation="2392"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="70" invocations="128" avgMicrosecondsPerInvocation="553" maxMicrosecondsPerInvocation="19244" standardDeviationMicrosecondsPerInvocation="2240"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="67" invocations="101" avgMicrosecondsPerInvocation="671" maxMicrosecondsPerInvocation="19963" standardDeviationMicrosecondsPerInvocation="2742"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="67" invocations="101" avgMicrosecondsPerInvocation="669" maxMicrosecondsPerInvocation="11877" standardDeviationMicrosecondsPerInvocation="1806"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="65" invocations="283" avgMicrosecondsPerInvocation="232" maxMicrosecondsPerInvocation="7574" standardDeviationMicrosecondsPerInvocation="791"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="60" invocations="128" avgMicrosecondsPerInvocation="469" maxMicrosecondsPerInvocation="31441" standardDeviationMicrosecondsPerInvocation="3533"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="55" invocations="101" avgMicrosecondsPerInvocation="554" maxMicrosecondsPerInvocation="11357" standardDeviationMicrosecondsPerInvocation="1406"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="55" invocations="101" avgMicrosecondsPerInvocation="552" maxMicrosecondsPerInvocation="11552" standardDeviationMicrosecondsPerInvocation="1508"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="52" invocations="101" avgMicrosecondsPerInvocation="523" maxMicrosecondsPerInvocation="21628" standardDeviationMicrosecondsPerInvocation="2319"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.ConstantPasswordDetector" totalMilliseconds="49" invocations="101" avgMicrosecondsPerInvocation="490" maxMicrosecondsPerInvocation="15917" standardDeviationMicrosecondsPerInvocation="1946"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RepeatedConditionals" totalMilliseconds="49" invocations="101" avgMicrosecondsPerInvocation="485" maxMicrosecondsPerInvocation="14429" standardDeviationMicrosecondsPerInvocation="1867"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine" totalMilliseconds="48" invocations="699" avgMicrosecondsPerInvocation="69" maxMicrosecondsPerInvocation="6927" standardDeviationMicrosecondsPerInvocation="435"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteSuppressedWarnings" totalMilliseconds="46" invocations="128" avgMicrosecondsPerInvocation="361" maxMicrosecondsPerInvocation="8415" standardDeviationMicrosecondsPerInvocation="959"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="45" invocations="101" avgMicrosecondsPerInvocation="450" maxMicrosecondsPerInvocation="4336" standardDeviationMicrosecondsPerInvocation="805"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.OverlyConcreteParameter" totalMilliseconds="43" invocations="101" avgMicrosecondsPerInvocation="428" maxMicrosecondsPerInvocation="8717" standardDeviationMicrosecondsPerInvocation="1327"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="43" invocations="128" avgMicrosecondsPerInvocation="338" maxMicrosecondsPerInvocation="7920" standardDeviationMicrosecondsPerInvocation="1059"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="42" invocations="283" avgMicrosecondsPerInvocation="149" maxMicrosecondsPerInvocation="18038" standardDeviationMicrosecondsPerInvocation="1117"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="42" invocations="101" avgMicrosecondsPerInvocation="416" maxMicrosecondsPerInvocation="4665" standardDeviationMicrosecondsPerInvocation="761"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="39" invocations="1574" avgMicrosecondsPerInvocation="25" maxMicrosecondsPerInvocation="8593" standardDeviationMicrosecondsPerInvocation="265"/>
+      <ClassProfile name="edu.umd.cs.findbugs.NonReportingDetectorToDetector2Adapter" totalMilliseconds="39" invocations="2250" avgMicrosecondsPerInvocation="17" maxMicrosecondsPerInvocation="6443" standardDeviationMicrosecondsPerInvocation="186"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="37" invocations="286" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="20709" standardDeviationMicrosecondsPerInvocation="1235"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

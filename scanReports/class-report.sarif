@@ -1,0 +1,428 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Class File Analyzer",
+          "rules": [
+            {
+              "id": "STATIC_IV",
+              "help": {
+                "text": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-12] \nIn class com.minimals.IV.baseCase.StaticIV \nIn method com.minimals.IV.baseCase.StaticIV.main(String[]) \nAt StaticIV.java:[line 9].",
+                "markdown": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-12] \nIn class com.minimals.IV.baseCase.StaticIV \nIn method com.minimals.IV.baseCase.StaticIV.main(String[]) \nAt StaticIV.java:[line 9]."
+              },
+              "name": "Static Iv",
+              "properties": {
+                "tags": [
+                  "Scan"
+                ],
+                "precision": "high"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "fullDescription": {
+                "text": "The initialization vector (IV) is not properly generated ."
+              },
+              "helpUri": "https://appthreat.com?q=STATIC_IV",
+              "shortDescription": {
+                "text": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-12] \nIn class com.minimals.IV.baseCase.StaticIV \nIn method com.minimals.IV.baseCase.StaticIV.main(String[]) \nAt StaticIV.java:[line 9]."
+              }
+            },
+            {
+              "id": "WEAK_MESSAGE_DIGEST_MD5",
+              "help": {
+                "text": "This API MD5 (MDX) is not a recommended cryptographic hash function \nAt MessageDigestComplex.java:[lines 5-15] \nIn class com.minimals.messagedigest.differentCase.MessageDigestComplex \nIn method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[]) \nAt MessageDigestComplex.java:[line 9] \nValue MD5.",
+                "markdown": "This API MD5 (MDX) is not a recommended cryptographic hash function \nAt MessageDigestComplex.java:[lines 5-15] \nIn class com.minimals.messagedigest.differentCase.MessageDigestComplex \nIn method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[]) \nAt MessageDigestComplex.java:[line 9] \nValue MD5."
+              },
+              "name": "WEAK MESSAGE DIGEST MD5",
+              "properties": {
+                "tags": [
+                  "Scan"
+                ],
+                "precision": "high"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "fullDescription": {
+                "text": "This API MD5 (MDX) is not a recommended cryptographic hash function ."
+              },
+              "helpUri": "https://appthreat.com?q=WEAK_MESSAGE_DIGEST_MD5",
+              "shortDescription": {
+                "text": "This API MD5 (MDX) is not a recommended cryptographic hash function \nAt MessageDigestComplex.java:[lines 5-15] \nIn class com.minimals.messagedigest.differentCase.MessageDigestComplex \nIn method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[]) \nAt MessageDigestComplex.java:[line 9] \nValue MD5."
+              }
+            }
+          ],
+          "version": "1.0.0-scan",
+          "fullName": "Class File Analyzer"
+        }
+      },
+      "conversion": {
+        "tool": {
+          "driver": {
+            "name": "@ShiftLeft/sast-scan"
+          }
+        },
+        "invocation": {
+          "arguments": [
+            "-jar",
+            "/opt/spotbugs/lib/spotbugs.jar",
+            "-textui",
+            "-include",
+            "/usr/local/src/lib/../spotbugs/include.xml",
+            "-exclude",
+            "/usr/local/src/lib/../spotbugs/exclude.xml",
+            "-noClassOk",
+            "-auxclasspathFromFile",
+            "/tmp/tmpiusz2kgk",
+            "-sourcepath",
+            "/app",
+            "-quiet",
+            "-medium",
+            "-xml:withMessages",
+            "-effort:max",
+            "-nested:false",
+            "-output",
+            "/app/reports/class-report.xml",
+            "/app"
+          ],
+          "executionSuccessful": true,
+          "commandLine": "-jar /opt/spotbugs/lib/spotbugs.jar -textui -include /usr/local/src/lib/../spotbugs/include.xml -exclude /usr/local/src/lib/../spotbugs/exclude.xml -noClassOk -auxclasspathFromFile /tmp/tmpiusz2kgk -sourcepath /app -quiet -medium -xml:withMessages -effort:max -nested:false -output /app/reports/class-report.xml /app",
+          "endTimeUtc": "2023-04-15T20:40:36Z",
+          "workingDirectory": {
+            "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws"
+          }
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "endTimeUtc": "2023-04-15T20:40:36Z",
+          "workingDirectory": {
+            "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws"
+          }
+        }
+      ],
+      "properties": {
+        "metrics": {
+          "total": 7,
+          "critical": 1,
+          "high": 6,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "results": [
+        {
+          "message": {
+            "markdown": "",
+            "text": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-12] \nIn class com.minimals.IV.baseCase.StaticIV \nIn method com.minimals.IV.baseCase.StaticIV.main(String[]) \nAt StaticIV.java:[line 9]."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "        IvParameterSpec ivSpec = new IvParameterSpec(bytes);\n"
+                  },
+                  "startLine": 9
+                },
+                "artifactLocation": {
+                  "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/baseCase/StaticIV.java"
+                },
+                "contextRegion": {
+                  "snippet": {
+                    "text": "        byte[] bytes = \"Hello\".getBytes();\n        IvParameterSpec ivSpec = new IvParameterSpec(bytes);\n"
+                  },
+                  "endLine": 9,
+                  "startLine": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "MEDIUM",
+            "issue_severity": "HIGH",
+            "issue_tags": {}
+          },
+          "baselineState": "new",
+          "partialFingerprints": {
+            "scanPrimaryLocationHash": "319b5ae06f5e30b4",
+            "scanFileHash": "1ea10283d8ec9072"
+          },
+          "ruleId": "STATIC_IV",
+          "ruleIndex": 0
+        },
+        {
+          "message": {
+            "markdown": "",
+            "text": "The initialization vector (IV) is not properly generated \nAt ComplexStaticIV.java:[lines 6-17] \nIn class com.minimals.IV.complexCase.ComplexStaticIV \nIn method com.minimals.IV.complexCase.ComplexStaticIV.main(String[]) \nAt ComplexStaticIV.java:[line 14]."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n"
+                  },
+                  "startLine": 14
+                },
+                "artifactLocation": {
+                  "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/complexCase/ComplexStaticIV.java"
+                },
+                "contextRegion": {
+                  "snippet": {
+                    "text": "\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n"
+                  },
+                  "endLine": 14,
+                  "startLine": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "MEDIUM",
+            "issue_severity": "HIGH",
+            "issue_tags": {}
+          },
+          "baselineState": "new",
+          "partialFingerprints": {
+            "scanPrimaryLocationHash": "bcd3683b62535712",
+            "scanFileHash": "f9dff598653d72ce"
+          },
+          "ruleId": "STATIC_IV",
+          "ruleIndex": 0
+        },
+        {
+          "message": {
+            "markdown": "",
+            "text": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 22]."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes());\n"
+                  },
+                  "startLine": 22
+                },
+                "artifactLocation": {
+                  "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/stash/StaticIV.java"
+                },
+                "contextRegion": {
+                  "snippet": {
+                    "text": "        }\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes());\n"
+                  },
+                  "endLine": 22,
+                  "startLine": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "MEDIUM",
+            "issue_severity": "HIGH",
+            "issue_tags": {}
+          },
+          "baselineState": "new",
+          "partialFingerprints": {
+            "scanPrimaryLocationHash": "61a68ce50ae0af73",
+            "scanFileHash": "77e23e50e0ee57b8"
+          },
+          "ruleId": "STATIC_IV",
+          "ruleIndex": 0
+        },
+        {
+          "message": {
+            "markdown": "",
+            "text": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 24]."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "        IvParameterSpec ivSpec2 = new IvParameterSpec(val2.getBytes());\n"
+                  },
+                  "startLine": 24
+                },
+                "artifactLocation": {
+                  "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/stash/StaticIV.java"
+                },
+                "contextRegion": {
+                  "snippet": {
+                    "text": "        String val2 = \"ABCDEFGHI\";\n        IvParameterSpec ivSpec2 = new IvParameterSpec(val2.getBytes());\n"
+                  },
+                  "endLine": 24,
+                  "startLine": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "MEDIUM",
+            "issue_severity": "HIGH",
+            "issue_tags": {}
+          },
+          "baselineState": "new",
+          "partialFingerprints": {
+            "scanPrimaryLocationHash": "ce2093ae0af4b444",
+            "scanFileHash": "77e23e50e0ee57b8"
+          },
+          "ruleId": "STATIC_IV",
+          "ruleIndex": 0
+        },
+        {
+          "message": {
+            "markdown": "",
+            "text": "The initialization vector (IV) is not properly generated \nAt CurrentTimeIV.java:[lines 7-21] \nIn class com.minimals.IV.timeCase.CurrentTimeIV \nIn method com.minimals.IV.timeCase.CurrentTimeIV.main(String[]) \nAt CurrentTimeIV.java:[line 15]."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n"
+                  },
+                  "startLine": 15
+                },
+                "artifactLocation": {
+                  "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/timeCase/CurrentTimeIV.java"
+                },
+                "contextRegion": {
+                  "snippet": {
+                    "text": "        // val = new Date(System.currentTimeMillis()).toString();\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n"
+                  },
+                  "endLine": 15,
+                  "startLine": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "MEDIUM",
+            "issue_severity": "HIGH",
+            "issue_tags": {}
+          },
+          "baselineState": "new",
+          "partialFingerprints": {
+            "scanPrimaryLocationHash": "bcd3683b62535712",
+            "scanFileHash": "dc057dd60e818717"
+          },
+          "ruleId": "STATIC_IV",
+          "ruleIndex": 0
+        },
+        {
+          "message": {
+            "markdown": "",
+            "text": "This API MD5 (MDX) is not a recommended cryptographic hash function \nAt MessageDigestComplex.java:[lines 5-15] \nIn class com.minimals.messagedigest.differentCase.MessageDigestComplex \nIn method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[]) \nAt MessageDigestComplex.java:[line 9] \nValue MD5."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "            cryptoDigest = MessageDigest.getInstance(\"md5\");\n"
+                  },
+                  "startLine": 9
+                },
+                "artifactLocation": {
+                  "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/messagedigest/differentCase/MessageDigestComplex.java"
+                },
+                "contextRegion": {
+                  "snippet": {
+                    "text": "        try {\n            cryptoDigest = MessageDigest.getInstance(\"md5\");\n"
+                  },
+                  "endLine": 9,
+                  "startLine": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "MEDIUM",
+            "issue_severity": "CRITICAL",
+            "issue_tags": {}
+          },
+          "baselineState": "new",
+          "partialFingerprints": {
+            "scanPrimaryLocationHash": "cad6d2dccb416616",
+            "scanFileHash": "663e0e9e1be6fa5c"
+          },
+          "ruleId": "WEAK_MESSAGE_DIGEST_MD5",
+          "ruleIndex": 1
+        },
+        {
+          "message": {
+            "markdown": "",
+            "text": "The initialization vector (IV) is not properly generated \nAt Static.java:[lines 3-8] \nIn class com.minimals.newOps.StaticKeystore.Static \nIn method com.minimals.newOps.StaticKeystore.Static.main(String[]) \nAt Static.java:[line 7]."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "        javax.crypto.spec.IvParameterSpec ivSpec = new javax.crypto.spec.IvParameterSpec(cryptoTemp,0,8);\n"
+                  },
+                  "startLine": 7
+                },
+                "artifactLocation": {
+                  "uri": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/newOps/StaticKeystore/Static.java"
+                },
+                "contextRegion": {
+                  "snippet": {
+                    "text": "        byte[] cryptoTemp = \"12345678\".getBytes();\n        javax.crypto.spec.IvParameterSpec ivSpec = new javax.crypto.spec.IvParameterSpec(cryptoTemp,0,8);\n"
+                  },
+                  "endLine": 7,
+                  "startLine": 6
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "MEDIUM",
+            "issue_severity": "HIGH",
+            "issue_tags": {}
+          },
+          "baselineState": "new",
+          "partialFingerprints": {
+            "scanPrimaryLocationHash": "f98a228a3792bd7c",
+            "scanFileHash": "191c24da97245717"
+          },
+          "ruleId": "STATIC_IV",
+          "ruleIndex": 0
+        }
+      ],
+      "automationDetails": {
+        "description": {
+          "text": "Static Analysis Security Test results using @ShiftLeft/sast-scan"
+        },
+        "guid": "3737608d-c689-4b15-8039-e7c5df8b4cf1"
+      },
+      "versionControlProvenance": [
+        {
+          "branch": "master",
+          "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws",
+          "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "inlineExternalProperties": [
+    {
+      "guid": "3737608d-c689-4b15-8039-e7c5df8b4cf1",
+      "runGuid": "8ab28adb-48cb-4481-b936-35b834bac73b"
+    }
+  ]
+}

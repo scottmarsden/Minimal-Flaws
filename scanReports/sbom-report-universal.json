@@ -1,0 +1,86 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:97981f6d-4a90-497f-b5d7-1753571c8826",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-04-15T20:40:55.228Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.1.6"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ]
+  },
+  "components": [
+    {
+      "publisher": "",
+      "group": "actions",
+      "name": "checkout",
+      "version": "v3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:github/actions/checkout@v3",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/checkout@v3"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "github/codeql-action/init",
+      "version": "v2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:github/github/codeql-action/init@v2",
+      "type": "library",
+      "bom-ref": "pkg:github/github/codeql-action/init@v2"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "github/codeql-action/autobuild",
+      "version": "v2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:github/github/codeql-action/autobuild@v2",
+      "type": "library",
+      "bom-ref": "pkg:github/github/codeql-action/autobuild@v2"
+    },
+    {
+      "publisher": "",
+      "group": "",
+      "name": "github/codeql-action/analyze",
+      "version": "v2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:github/github/codeql-action/analyze@v2",
+      "type": "library",
+      "bom-ref": "pkg:github/github/codeql-action/analyze@v2"
+    },
+    {
+      "publisher": "",
+      "group": "RIGS-IT",
+      "name": "xanitizer-action",
+      "version": "v1.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:github/RIGS-IT/xanitizer-action@v1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:github/RIGS-IT/xanitizer-action@v1.0.1"
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.minimals/des@1?type=jar",
+      "dependsOn": []
+    }
+  ]
+}
