@@ -1,4 +1,4 @@
-package com.minimals.newOps.Interproc;
+package com.minimals.newOps.Interproc.Interproc3;
 
 public class CipherPack {
     private String propertyName = "AES/GCM/NoPadding";
