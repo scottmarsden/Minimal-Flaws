@@ -1,0 +1,16 @@
+{
+  "sarifVersion" : "2.0.0",
+  "runs" : [ {
+    "files" : { },
+    "resources" : {
+      "rules" : { }
+    },
+    "results" : [ ],
+    "tool" : {
+      "name" : "CryptoAnalysis",
+      "semanticVersion" : "2.7.3",
+      "language" : "en-US",
+      "version" : "2.7.3"
+    }
+  } ]
+}
